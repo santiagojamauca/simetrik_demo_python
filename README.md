@@ -10,7 +10,9 @@
  ```
   
 - and grpcio-tools Python packages
+  ```
   python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. greeter.proto
+  ```
 
   these commands will create the necesary files:
   greeter_pb2.py : Contains the Python classes for the Protobuf messages.
