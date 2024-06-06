@@ -5,7 +5,9 @@
 - Python 3.x
 
 - grpcio
+ ```
   pip install grpcio grpcio-tools
+ ```
   
 - and grpcio-tools Python packages
   python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. greeter.proto
