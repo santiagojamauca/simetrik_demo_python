@@ -24,8 +24,12 @@
   server.py
   
 ## Run
+```
  python server.py
+```
+```
  python client.py
+```
 
  Greeter client received: Hello, World!
 
